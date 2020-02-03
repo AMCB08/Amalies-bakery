@@ -1,0 +1,586 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}    
+
+header {
+    background-color:#333;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.text-logo {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1rem;
+
+}
+
+.text-logo span {
+    font-weight: bold;
+}
+
+.text-logo h3, .text-logo h6 {
+    margin: 0px;
+}
+
+.text-logo h3 {
+    color: white;
+}
+
+.text-logo h6 {
+    color: orange;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 1rem;
+
+}
+.home {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: #333;
+}
+
+.home-text {
+    display: block;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.home-text h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+}
+
+.home-text a {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.specials {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 10px;
+}
+
+.june {
+    height: 250px;
+    width: 300px;
+    background-position: center;
+}
+
+.june img {
+    width: 400px;
+    height: 200px;
+}
+
+.sign-up {
+    height: 250px;
+    width: 300px;
+
+}
+
+.sign-up img {
+    width: 400px;
+    height: 200px;
+}
+
+.text-headings h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30pt;
+}
+
+.text-headings h5 {
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 12pt;
+}
+
+article {
+    text-align: center;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-bottom: 75px;
+
+}
+
+/* .offers img {
+    align-items: right; */
+
+
+.shipping {
+    display: flex;
+    height: 100px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.returns {
+    display: flex;
+    height: 100px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality {
+    display: flex;
+    height: 100px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop {
+    display: block;
+    background-color: lightgray;
+    height: 800px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pancake img {
+    max-height: 75%;
+    max-width: 75%;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.amaelia-cakes {
+    display: block;
+    align-items: center;
+    
+}
+
+.featured-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bread {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    Height: 250px;
+}
+
+.bread img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figcaption span {
+    font-style: italic;
+    color: orange;
+    padding-bottom: 2rem;
+}
+
+.testimonials {
+    background-image: url(/images/Desktop/Copy\ of\ bkg-bread.jpg);
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.text-headings-2 h5 {
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 12pt;
+}
+
+.text-headings-2 h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30pt;
+    color: white;
+}
+
+.text-headings-2 p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 12pt;
+    color: white;
+}
+
+.blog {
+   text-align: center;
+}
+
+.amalies-blog {
+    display: block;
+    align-items: center;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.june-blog {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    Height: 200px;
+}
+
+.july-blog {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    Height: 200px;
+}
+
+.june-blog h3 {
+    color: grey;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22pt;
+    margin: 1rem;
+}
+
+.june-blog p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 8pt;
+}
+
+
+.july-blog h3 {
+    color: grey;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22pt;
+    margin: 1rem;
+}
+
+.july-blog p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 8pt;
+}
+
+/* .bakery-logos {
+    display: flex;
+    align-content: center;
+}
+
+.bakery-logos img {
+    max-height: 75%;
+    max-width: 75%;
+} */
+
+form {
+    text-align: center;
+    background-color: lightgray;
+    height: 700px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.email-block {
+    background-color: white;
+    list-style-type: none;
+    height: 300px;
+    width: 800px;
+    align-items: center;
+    margin: auto;
+    font-family: futura, sans-serif;
+    padding: 30px 50px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row li {
+    display: flex;
+    align-items: center;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-2 {
+    display: flex;
+    width: 50%;
+    padding: 30px;
+    margin-top: 30px;
+    align-items: flex-end;
+
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: inline;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.submit {
+    display: block;
+
+}
+
+.amalie-location {
+    background-image: url(/images/Desktop/Copy\ of\ foodbkg.png);
+    height: 500px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.text-headings-3 {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-left: 15%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text-headings-3 h5 {
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 0px;
+}
+
+.text-headings-3 h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30pt;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.text-headings-3 p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 12pt;
+    color: white;
+} 
+
+.contact {
+    display: flex;
+    margin-left: 15%;
+    width: 400px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.contact img {
+    height: 60px;
+}
+
+.contact-list {
+    display: block;
+    color: white;
+    height: 50px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.contact-list li {
+    display: inline;
+}
+
+.contact span {
+    opacity: 0.3;
+    color: white;
+}
+
+.map {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 50px;
+}
+
+.newsletter {
+    text-align: center;
+    background-image: url(/images/Desktop/muffins.jpg);
+    height: 400px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
+.text-headings-4 h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22pt;
+    color: black;
+}
+
+.text-headings-4 h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 10pt;
+    color: black;
+}
+
+
+
+.block-message {
+    display: block;
+    height: 150px;
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.9;
+    right: 0px;
+    width: 100%;
+}
+
+.owners-message {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    padding-right: 200px;
+    padding-left: 0px;
+}
+
+.lets-connect {
+    display: flex;
+    flex-flow: row-wrap;
+    height: 400px;
+
+}
+
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+
+.container-1 {
+    display: inline-flex;
+    width: 300px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.text-logo-2 {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 0;
+
+}
+
+.text-logo-2 span {
+    font-weight: bold;
+}
+
+.text-logo-2 h3, .text-logo-2 h6 {
+    margin: 0px;
+}
+
+.text-logo-2 h3 {
+    color: black;
+}
+
+.text-logo-2 h6 {
+    color: orange;
+}
+
+.divider {
+    display: block;
+    width: 100px;
+    padding-left: 15px;
+}
+
+.divider img {
+    width: 50px;
+}
+
+.more-info {
+    padding-left: 15px;
+}
+
+.more-info p {
+    width: 300px;
+}
+
+.contact-bottom {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.contact-bottom img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-list-2 {
+    display: block;
+    color: black;
+    margin-top: 0;
+    width: 300px;
+}
+
+.contact-list-2 li {
+    width: 300px;
+    list-style-type: none;
+}
+
+.contact-list-2 li span {
+   color: orange; 
+}
+
